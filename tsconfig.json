@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    // See https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
+    "lib": ["esnext", "dom", "esnext.asynciterable"],
+    "module": "commonjs",
+    "target": "esnext",
+    // For typegraphql
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
